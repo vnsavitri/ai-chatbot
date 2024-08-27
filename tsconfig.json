@@ -30,6 +30,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/(chat)/chat/[id]/route.ts.example"  ],
   "exclude": ["node_modules"]
 }

@@ -77,6 +77,9 @@ importers:
       openai:
         specifier: ^4.56.0
         version: 4.56.0(zod@3.23.8)
+      openai-edge:
+        specifier: ^1.2.2
+        version: 1.2.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1608,6 +1611,10 @@ packages:
   object-hash@3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
     engines: {node: '>= 6'}
+
+  openai-edge@1.2.2:
+    resolution: {integrity: sha512-C3/Ao9Hkx5uBPv9YFBpX/x59XMPgPUU4dyGg/0J2sOJ7O9D98kD+lfdOc7v/60oYo5xzMGct80uFkYLH+X2qgw==}
+    engines: {node: '>=18'}
 
   openai@4.56.0:
     resolution: {integrity: sha512-zcag97+3bG890MNNa0DQD9dGmmTWL8unJdNkulZzWRXrl+QeD+YkBI4H58rJcwErxqGK6a0jVPZ4ReJjhDGcmw==}
@@ -3687,6 +3694,8 @@ snapshots:
   object-assign@4.1.1: {}
 
   object-hash@3.0.0: {}
+
+  openai-edge@1.2.2: {}
 
   openai@4.56.0(zod@3.23.8):
     dependencies:
